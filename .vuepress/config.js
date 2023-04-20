@@ -3,7 +3,7 @@ module.exports = {
   base: '/',
   dest: 'public',
   title: '滴滴答&Log',
-  description: '',
+  description: '每天都要开心啊',
   head: [
     [
       'link',

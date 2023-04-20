@@ -28,7 +28,7 @@
         </ModuleTransition>
 
       </div>
-      <!-- <component v-if="bubbles" :is="bubbles" :options="options"></component> -->
+      <component v-if="bubbles" :is="bubbles"></component>
     </div>
 
     <ModuleTransition delay="0.16">
