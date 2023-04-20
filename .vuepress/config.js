@@ -1,5 +1,5 @@
 module.exports = {
-  base: './',
+  base: '/',
   dest: 'public',
   title: '滴滴答&Log',
   description: '',
