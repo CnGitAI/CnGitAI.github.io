@@ -130,12 +130,12 @@ export default defineComponent({
     this.motto = this.$themeConfig.mottos[week]
   },
   mounted (){
-    // this.typing()
-    // import('vue-canvas-effect/src/components/bubbles').then(module => {
-    //   this.bubbles=module.default
-    // })
-    // this.recoShow = true
-    // this._setPage(this._getStoragePage())
+    this.typing()
+    import('vue-canvas-effect/src/components/bubbles').then(module => {
+      this.bubbles=module.default
+    })
+    this.recoShow = true
+    this._setPage(this._getStoragePage())
     },
 
   methods: {
