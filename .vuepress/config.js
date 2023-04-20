@@ -108,16 +108,19 @@ module.exports = {
       {
         title: '后来的我们',
         desc: '未成定局的事就不要弄得人尽皆知',
+        logo:'/default.png',
         link: 'https://zyj_yida.gitee.io/blog/',
       },
       {
         title: '尘墨成', //站点名称
         desc: '错把陈醋当成墨，写尽半生纸上酸。', //站点简介
+        logo:'/default.png',
         link: 'https://www.dustink.cn/', //站点网址
       },
       {
         title: 'zealsay说你想说', //站点名称
         desc: '上天是公平的，只要努力就会有收获，否则就是你不够努力。', //站点简介
+        logo:'/default.png',
         link: 'https://www.zealsay.com/', //站点网址
       },
     ],
