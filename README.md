@@ -73,7 +73,7 @@ features:
   transform: rotate(135deg);
 }
 body{
-  background-image: url(/bg.gif);
+  background-image: url(/gh/CnGitAI/CnGitAI.github.io@gh-pages/bg.gif);
 }
 </style>
 
