@@ -2,9 +2,9 @@
 title: vuepress-reco主题
 date: 2023-04-14
 tags:
- - 主题
+ - 主题指南
 categories:
- - blog主题指南
+ - 其他
 ---
 
 ![vuepress](https://img.shields.io/badge/vuepress-0.14.8-brightgreen.svg)

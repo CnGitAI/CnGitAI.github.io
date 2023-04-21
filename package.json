@@ -7,7 +7,10 @@
     "build": "vuepress build ."
   },
   "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-pagation": "^1.6.17",
     "vuepress": "1.9.7",
+    "vuepress-plugin-cursor-effects": "^1.1.6",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
     "vuepress-theme-reco": "1.6.17"
   },
   "description": "",
@@ -16,7 +19,6 @@
     "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.6.0",
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
     "vue-canvas-effect": "0.0.12",
-    "vuepress-plugin-cursor-effects": "^1.1.6",
     "vuepress-plugin-ribbon-animation": "^1.1.3"
   }
 }

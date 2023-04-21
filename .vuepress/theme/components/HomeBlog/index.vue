@@ -22,8 +22,10 @@
         <ModuleTransition delay="0.08">
           <p v-if="recoShowModule && $frontmatter.tagline !== null" class="description" id="description">
             <!-- {{ $frontmatter.tagline || $description || 'Welcome to your vuePress-theme-reco site' }} -->
-            <!-- <AutoInput iid="description" :des="this.motto.en "/> -->
-            {{ typewriter }}
+            <ClientOnly>
+              <AutoInput iid="description" :des="this.motto.en "/>
+            </ClientOnly>
+            <!-- {{ typewriter }} -->
           </p>
         </ModuleTransition>
 
@@ -37,6 +39,7 @@
           <!-- 博客列表 -->
           <note-abstract :data="$recoPosts" @paginationChange="paginationChange" />
         </div>
+    
         <div class="info-wrapper">
           <PersonalInfo/>
           <h4><reco-icon icon="reco-category" /> {{$recoLocales.category}}</h4>
@@ -56,9 +59,11 @@
         </div>
       </div>
     </ModuleTransition>
-
     <ModuleTransition delay="0.24">
       <Content v-show="recoShowModule" class="home-center" custom/>
+    </ModuleTransition>
+    <ModuleTransition delay="0.36">
+      <Pagation ></Pagation>
     </ModuleTransition>
   </div>
 </template>
@@ -139,6 +144,10 @@ export default defineComponent({
     },
 
   methods: {
+    currentPageFun(e){
+      console.log($recoPosts.length)
+      this.currentPage = e
+    },
     paginationChange (page) {
       setTimeout(() => {
         window.scrollTo(0, this.heroHeight)
