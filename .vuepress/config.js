@@ -1,6 +1,6 @@
 const path = require('path')
 module.exports = {
-  base: './',
+  base: '/',
   dest: 'public',
   title: '滴滴答&Log',
   description: '每天都要开心啊',
