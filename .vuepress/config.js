@@ -1,8 +1,8 @@
 const path = require('path')
 module.exports = {
-  base: '/',
+  base: './',
   dest: 'public',
-  title: '滴滴答&Log',
+  title: '奔跑的蜗牛',
   description: '每天都要开心啊',
   head: [
     [
@@ -20,32 +20,32 @@ module.exports = {
       },
     ],
   ],
-  configureWebpack: () => {
-    const NODE_ENV = process.env.NODE_ENV
-    //判断是否是生产环境
-    if(NODE_ENV === 'production'){
-      return {
-        output: {
-          publicPath: 'https://cdn.jsdelivr.net/gh/CnGitAI/CnGitAI.github.io@gh-pages/'
-        },
-        resolve: {
-          //配置路径别名
-          alias: {
-            'public': path.resolve(__dirname, './public') 
-          }
-        }
-      }
-    }else{
-      return {
-        resolve: {
-          //配置路径别名
-          alias: {
-            'public': path.resolve(__dirname, './public') 
-          }
-        }
-      }
-    }
-  },
+  // configureWebpack: () => {
+  //   const NODE_ENV = process.env.NODE_ENV
+  //   //判断是否是生产环境
+  //   if(NODE_ENV === 'production'){
+  //     return {
+  //       output: {
+  //         publicPath: 'https://cdn.jsdelivr.net/gh/CnGitAI/CnGitAI.github.io@gh-pages/'
+  //       },
+  //       resolve: {
+  //         //配置路径别名
+  //         alias: {
+  //           'public': path.resolve(__dirname, './public') 
+  //         }
+  //       }
+  //     }
+  //   }else{
+  //     return {
+  //       resolve: {
+  //         //配置路径别名
+  //         alias: {
+  //           'public': path.resolve(__dirname, './public') 
+  //         }
+  //       }
+  //     }
+  //   }
+  // },
   theme: 'reco',
   themeConfig: {
     // 404腾讯公益false为关闭
