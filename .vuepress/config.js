@@ -155,7 +155,7 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     lastUpdated: 'Last Updated',
-    author: '滴滴答&Log',
+    author: '奔跑的蜗牛',
     authorAvatar: '/avatar.png',
     record: '等待备案中...',
     startYear: '2023',

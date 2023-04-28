@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 滴滴答&Log的博客小栈
+heroText: 奔跑的蜗牛的博客小栈
 tagline: 欢迎来到我的博客
 #heroImage: /hero.png
 heroImageStyle:
