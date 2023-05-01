@@ -62,7 +62,7 @@ module.exports = {
         icon: 'reco-home',
       },
       {
-        text: '时间轴',
+        text: '时光机',
         link: '/timeline/',
         icon: 'reco-date',
       },
@@ -110,7 +110,7 @@ module.exports = {
       },
     ],
     sidebar: {
-      '/docs/myself/': ['', 'theme', 'plugin', 'api'],
+      '/docs/myself/': ['', ],
     },
     type: 'blog',
     blogConfig: {
@@ -259,7 +259,7 @@ module.exports = {
           },
           {
             type: 'text',
-            content: 'tips:博客可以自己更换主题颜色推荐dark浏览更佳,博客作用为学习和记录生活。后面会逐渐加入一些新的元素和功能，欢迎关注————滴滴答&Log(2023.4.16)',
+            content: 'tips:博客可以自己更换主题颜色推荐dark浏览更佳,博客作用为学习和记录生活。后面会逐渐加入一些新的元素和功能，欢迎关注————奔跑的蜗牛',
             style: 'text-align: center;',
           },
         ],
@@ -288,6 +288,12 @@ module.exports = {
             name: '用胳膊当枕头',
             artist: '최낙타',
             url: 'https://assets.smallsunnyfox.com/music/3.mp3',
+            cover: 'https://assets.smallsunnyfox.com/music/3.jpg',
+          },
+          {
+            name: '别把我屏蔽',
+            artist: '刘兆宇,王嘉懿',
+            url: 'http://m701.music.126.net/20230501175450/0062c405ef63540f61ebbbe3dfb9bf14/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/23054801978/d416/af54/037b/2e2274300052a5f75b430667f2a030d7.mp3',
             cover: 'https://assets.smallsunnyfox.com/music/3.jpg',
           },
         ],
