@@ -293,7 +293,7 @@ module.exports = {
           {
             name: '别把我屏蔽',
             artist: '刘兆宇,王嘉懿',
-            url: 'http://m701.music.126.net/20230501175450/0062c405ef63540f61ebbbe3dfb9bf14/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/23054801978/d416/af54/037b/2e2274300052a5f75b430667f2a030d7.mp3',
+            url: 'http://m701.music.126.net/20230501182332/11809d0de3e61df9a545f2238a9d665f/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/23054801978/d416/af54/037b/2e2274300052a5f75b430667f2a030d7.mp3',
             cover: 'https://assets.smallsunnyfox.com/music/3.jpg',
           },
         ],
