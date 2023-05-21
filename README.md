@@ -72,9 +72,9 @@ features:
   border-top: 3px solid #fff;
   transform: rotate(135deg);
 }
-body{
+/* body{
   background-image: url(/bg.gif);
-}
+} */
 </style>
 
 <script>

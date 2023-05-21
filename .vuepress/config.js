@@ -51,10 +51,10 @@ module.exports = {
     // 404腾讯公益false为关闭
     noFoundPageByTencent: false,
     themeMode: 'dark',
-    // valineConfig: {
-    //   appId: '...', // your appId
-    //   appKey: '...', // your appKey
-    // },
+    valineConfig: {
+      appId: 'APDrmG3Vop1PgILoARD7zit4-9Nh9j0Va', // your appId
+      appKey: 'qHrTSg639SlXuofTWYrNxB8S', // your appKey
+    },
     nav: [
       {
         text: '主页',
@@ -106,11 +106,15 @@ module.exports = {
             text: 'icons图标',
             link: 'https://fontawesome.com/icons',
           },
+          {
+            text: 'ChatGPT辅助',
+            link: 'https://www.chatongpt.club',
+          },
         ],
       },
     ],
     sidebar: {
-      '/docs/myself/': ['', ],
+      '/docs/myself/': ['', 'lastupdate'],
     },
     type: 'blog',
     blogConfig: {
@@ -154,7 +158,7 @@ module.exports = {
     logo: '/logo.png',
     search: true,
     searchMaxSuggestions: 10,
-    lastUpdated: 'Last Updated',
+    lastUpdated: '最后更新日期',
     author: '奔跑的蜗牛',
     authorAvatar: '/avatar.png',
     record: '等待备案中...',
@@ -238,23 +242,8 @@ module.exports = {
             style: 'text-aligin: center;',
           },
           {
-            type: 'title',
-            content: '最近更新内容',
-            style: 'text-aligin: center;',
-          },
-          {
             type: 'text',
-            content: '1.博客增加了首页气泡',
-            style: 'text-align: center;',
-          },
-          {
-            type: 'text',
-            content: '2.添加了格言打字机效果',
-            style: 'text-align: center;',
-          },
-          {
-            type: 'text',
-            content: '3.添加了公告板块',
+            content: '最近更新内容不再由公告展示,可以通过搜索“博客内容更新”或者点击标签<更新日志>查看',
             style: 'text-align: center;',
           },
           {
@@ -289,13 +278,7 @@ module.exports = {
             artist: '최낙타',
             url: 'https://assets.smallsunnyfox.com/music/3.mp3',
             cover: 'https://assets.smallsunnyfox.com/music/3.jpg',
-          },
-          {
-            name: '别把我屏蔽',
-            artist: '刘兆宇,王嘉懿',
-            url: 'http://m701.music.126.net/20230501182332/11809d0de3e61df9a545f2238a9d665f/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/23054801978/d416/af54/037b/2e2274300052a5f75b430667f2a030d7.mp3',
-            cover: 'https://assets.smallsunnyfox.com/music/3.jpg',
-          },
+          }
         ],
       },
     ],
