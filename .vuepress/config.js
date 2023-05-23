@@ -143,10 +143,10 @@ module.exports = {
         link: 'https://zyj_yida.gitee.io/blog/',
       },
       {
-        title: '尘墨成', //站点名称
-        desc: '错把陈醋当成墨，写尽半生纸上酸。', //站点简介
+        title: '会飞的小戈', //站点名称
+        desc: '小弋の生活馆。', //站点简介
         logo:'/default.png',
-        link: 'https://www.dustink.cn/', //站点网址
+        link: 'https://lovelijunyi.gitee.io/', //站点网址
       },
       {
         title: 'zealsay说你想说', //站点名称
