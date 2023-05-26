@@ -7,10 +7,10 @@ export function autoInput(id, des) {
   function typing() {
     if (!reverse && i < str.length) {
       divTyping.innerHTML = str.slice(0, i++) + '_'
-      timer = setTimeout(typing, 300)
+      timer = setTimeout(typing, 200)
     } else if (reverse && i > 0) {
       divTyping.innerHTML = str.slice(0, i--) + '_'
-      timer = setTimeout(typing, 300)
+      timer = setTimeout(typing, 200)
     } else {
       reverse = !reverse // 反转标志变量
       clearTimeout(timer)
