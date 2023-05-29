@@ -10,7 +10,6 @@ export default {
         const num = urls.length
         const inum = RandomNum(1,num)
         bgurl = urls[inum-1]
-        alert(inum)
       }else{
         bgurl = this.$themeConfig.back.bgImage;
       }
