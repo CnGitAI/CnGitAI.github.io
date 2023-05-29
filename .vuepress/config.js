@@ -272,6 +272,8 @@ module.exports = {
     [
       '@vuepress-reco/vuepress-plugin-bgm-player',
       {
+        autoShrink:true,
+        autoplay: true,
         audios: [
           // 本地文件示例
           // {
