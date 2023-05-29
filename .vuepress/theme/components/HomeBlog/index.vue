@@ -89,7 +89,8 @@ export default defineComponent({
       typewriter: '',
       i: 0,
       timer: 0,
-      str: 'Hi, i´m a web Designer'
+      str: 'Hi, i´m a web Designer',
+      bgUrl: null,
     }
   },
 
@@ -106,10 +107,10 @@ export default defineComponent({
     const heroImageStyle = computed(() => instance.$frontmatter.heroImageStyle || {})
 
     const bgImageStyle = computed(() => {
-      const url = instance.$frontmatter.bgImage
-        ? instance.$withBase(instance.$frontmatter.bgImage)
-        : require('../../images/bg.svg')
-
+      // const url = instance.$frontmatter.bgImage
+      //   ? instance.$withBase(instance.$frontmatter.bgImage)
+      //   : require('../../images/bg.svg')
+      const url = instance.bgUrl
       const initBgImageStyle = {
         textAlign: 'center',
         overflow: 'hidden',
@@ -129,6 +130,14 @@ export default defineComponent({
     return { recoShowModule, heroImageStyle, bgImageStyle, ...toRefs(state), getOneColor }
   },
   created() {
+    //是否采用随机 isRandom
+    //地址 bgUrls
+    //个数 bgNum
+    if(this.$themeConfig.back.isRandom) {
+      this.bgUrl = this.timestamp(this.$coverRandom);
+    }else{
+      this.bgUrl = this.timestamp(this.$themeConfig.back.bgImage);
+    }
     //获取当天格言
     var itoday = new Date()
     var week = itoday.getDay()
@@ -144,6 +153,16 @@ export default defineComponent({
     },
 
   methods: {
+    //新连接
+    timestamp(url){
+      var getTimestamp=new Date().getTime();
+      if(url.indexOf("?")>-1){
+        url=url+"&timestamp="+getTimestamp
+      }else{
+        url=url+"?timestamp="+getTimestamp
+      }
+      return url
+    },
     currentPageFun(e){
       console.log($recoPosts.length)
       this.currentPage = e

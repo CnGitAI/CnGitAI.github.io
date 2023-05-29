@@ -2,6 +2,21 @@ import { filterPosts, sortPostsByStickyAndDate, sortPostsByDate } from '../helpe
 
 export default {
   computed: {
+    //随机背景图片
+    $coverRandom (s){
+      let bgurl = '';
+      if(this.$themeConfig.back.isRandom) {
+        const urls = this.$themeConfig.back.bgUrls
+        const num = urls.length
+        const inum = RandomNum(1,num)
+        bgurl = urls[inum-1]
+        alert(inum)
+      }else{
+        bgurl = this.$themeConfig.back.bgImage;
+      }
+      
+      return bgurl;
+    },
     $recoPosts () {
       let posts = this.$site.pages
 
@@ -72,7 +87,13 @@ export default {
     }
   }
 }
-
+//获取范围内随机数
+function RandomNum (Min,Max) {
+  var Range = Max - Min;
+  var Rand = Math.random();   
+  var num = Min + Math.round(Rand * Range);
+  return num;
+}
 function renderTime (date) {
   var dateee = new Date(date).toJSON()
   return new Date(+new Date(dateee) + 8 * 3600 * 1000).toISOString().replace(/T/g, ' ').replace(/\.[\d]{3}Z/, '').replace(/-/g, '/')
