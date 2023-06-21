@@ -51,15 +51,15 @@ module.exports = {
     //首页样式
     back:{
       isRandom: true,
-      bgImage: 'https://cdn.jsdelivr.net/gh/CnGitAI/blogImage@main/imgs/202305292115776.jpg',
+      bgImage: 'http://rwlot91gu.hd-bkt.clouddn.com/blogImage/202306211922891.jpg',
       bgUrls: [
-        'https://cdn.jsdelivr.net/gh/CnGitAI/blogImage@main/imgs/202305292115776.jpg',
-        'https://cdn.jsdelivr.net/gh/CnGitAI/blogImage@main/imgs/202305292117743.jpg',
-        'https://cdn.jsdelivr.net/gh/CnGitAI/blogImage@main/imgs/202305292117144.jpg',
-        'https://cdn.jsdelivr.net/gh/CnGitAI/blogImage@main/imgs/202305292118223.jpg',
-        'https://cdn.jsdelivr.net/gh/CnGitAI/blogImage@main/imgs/202305292118382.jpg',
-        'https://cdn.jsdelivr.net/gh/CnGitAI/blogImage@main/imgs/202305292119105.jpg',
-        'https://cdn.jsdelivr.net/gh/CnGitAI/blogImage@main/imgs/202305292119094.jpg'
+        'http://rwlot91gu.hd-bkt.clouddn.com/blogImage/202306211922891.jpg',
+        'http://rwlot91gu.hd-bkt.clouddn.com/blogImage/202306211923638.jpg',
+        'http://rwlot91gu.hd-bkt.clouddn.com/blogImage/202306211924200.jpg',
+        'http://rwlot91gu.hd-bkt.clouddn.com/blogImage/202306211924653.jpg',
+        'http://rwlot91gu.hd-bkt.clouddn.com/blogImage/202306211924842.jpg',
+        'http://rwlot91gu.hd-bkt.clouddn.com/blogImage/202306211924977.jpg',
+        'http://rwlot91gu.hd-bkt.clouddn.com/blogImage/202306211924990.jpg'
       ]
     },
     // 404腾讯公益false为关闭
