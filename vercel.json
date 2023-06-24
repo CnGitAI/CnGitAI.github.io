@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    { 
+      "source": "/blogImage/(.*)", 
+      "destination": "http://rwlot91gu.hd-bkt.clouddn.com/blogImage/", 
+      "statusCode": 301 
+    }
+  ]
+}
