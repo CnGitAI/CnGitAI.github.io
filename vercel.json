@@ -1,11 +1,8 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/blogImage/(.*)",
-      "destination": "/api/proxy",
-      "statusCode": 301 
+      "src": "/blogImage/(.*)",
+      "dest": "http://rwlot91gu.hd-bkt.clouddn.com/blogImage/$1"
     }
   ]
 }
-
-
