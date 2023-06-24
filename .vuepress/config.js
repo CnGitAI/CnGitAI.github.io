@@ -53,13 +53,13 @@ module.exports = {
       isRandom: true,
       bgImage: 'http://rwlot91gu.hd-bkt.clouddn.com/blogImage/202306211922891.jpg',
       bgUrls: [
-        'http://rwlot91gu.hd-bkt.clouddn.com/blogImage/202306211922891.jpg',
-        'http://rwlot91gu.hd-bkt.clouddn.com/blogImage/202306211923638.jpg',
-        'http://rwlot91gu.hd-bkt.clouddn.com/blogImage/202306211924200.jpg',
-        'http://rwlot91gu.hd-bkt.clouddn.com/blogImage/202306211924653.jpg',
-        'http://rwlot91gu.hd-bkt.clouddn.com/blogImage/202306211924842.jpg',
-        'http://rwlot91gu.hd-bkt.clouddn.com/blogImage/202306211924977.jpg',
-        'http://rwlot91gu.hd-bkt.clouddn.com/blogImage/202306211924990.jpg'
+        'https://www.awenblog.online/blogImage/202306211922891.jpg',
+        'https://www.awenblog.online/blogImage/202306211923638.jpg',
+        'https://www.awenblog.online/blogImage/202306211924200.jpg',
+        'https://www.awenblog.online/blogImage/202306211924653.jpg',
+        'https://www.awenblog.online/blogImage/202306211924842.jpg',
+        'https://www.awenblog.online/blogImage/202306211924977.jpg',
+        'https://www.awenblog.online/blogImage/202306211924990.jpg'
       ]
     },
     // 404腾讯公益false为关闭
