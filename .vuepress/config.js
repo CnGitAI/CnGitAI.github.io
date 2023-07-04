@@ -257,7 +257,7 @@ module.exports = {
           },
           {
             type: 'text',
-            content: '最近更新内容不再由公告展示,可以通过搜索“博客内容更新”或者点击标签<更新日志>查看',
+            content: '工具袋->ChatGPT辅助是一个智能辅助Web端,十万个为什么终结者,工作学习都可以使用大大提高效率,感兴趣可以尝试一下',
             style: 'text-align: center;',
           },
           {
