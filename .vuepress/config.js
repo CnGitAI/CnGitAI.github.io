@@ -31,7 +31,7 @@ module.exports = {
   //       resolve: {
   //         //配置路径别名
   //         alias: {
-  //           'public': path.resolve(__dirname, './public') 
+  //           'public': path.resolve(__dirname, './public')
   //         }
   //       }
   //     }
@@ -40,7 +40,7 @@ module.exports = {
   //       resolve: {
   //         //配置路径别名
   //         alias: {
-  //           'public': path.resolve(__dirname, './public') 
+  //           'public': path.resolve(__dirname, './public')
   //         }
   //       }
   //     }
@@ -49,18 +49,18 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     //首页样式
-    back:{
+    back: {
       isRandom: true,
-      bgImage: 'http://rwlot91gu.hd-bkt.clouddn.com/blogImage/202306211922891.jpg',
+      bgImage: 'https://www.awenblog.online/blogimgs/202307252206552.jpg',
       bgUrls: [
-        'https://www.awenblog.online/blogImage/202306211922891.jpg',
-        'https://www.awenblog.online/blogImage/202306211923638.jpg',
-        'https://www.awenblog.online/blogImage/202306211924200.jpg',
-        'https://www.awenblog.online/blogImage/202306211924653.jpg',
-        'https://www.awenblog.online/blogImage/202306211924842.jpg',
-        'https://www.awenblog.online/blogImage/202306211924977.jpg',
-        'https://www.awenblog.online/blogImage/202306211924990.jpg'
-      ]
+        'https://www.awenblog.online/blogimgs/202307252206552.jpg',
+        'https://www.awenblog.online/blogimgs/202307252207019.jpg',
+        'https://www.awenblog.online/blogimgs/202307252208621.jpg',
+        'https://www.awenblog.online/blogimgs/202307252208584.jpg',
+        'https://www.awenblog.online/blogimgs/202307252208381.jpg',
+        'https://www.awenblog.online/blogimgs/202307252208350.jpg',
+        'https://www.awenblog.online/blogimgs/202307252209984.jpg',
+      ],
     },
     // 404腾讯公益false为关闭
     noFoundPageByTencent: false,
@@ -153,19 +153,19 @@ module.exports = {
       {
         title: '后来的我们',
         desc: '未成定局的事就不要弄得人尽皆知',
-        logo:'/default.png',
+        logo: '/default.png',
         link: 'https://zyj_yida.gitee.io/blog/',
       },
       {
         title: '会飞的小戈', //站点名称
         desc: '小弋の生活馆。', //站点简介
-        logo:'/default.png',
+        logo: '/default.png',
         link: 'https://lovelijunyi.gitee.io/', //站点网址
       },
       {
         title: 'zealsay说你想说', //站点名称
         desc: '上天是公平的，只要努力就会有收获，否则就是你不够努力。', //站点简介
-        logo:'/default.png',
+        logo: '/default.png',
         link: 'https://www.zealsay.com/', //站点网址
       },
     ],
@@ -257,16 +257,17 @@ module.exports = {
           },
           {
             type: 'text',
-            content: '工具袋->ChatGPT辅助是一个智能辅助Web端,十万个为什么终结者,工作学习都可以使用大大提高效率,感兴趣可以尝试一下',
+            content:
+              '工具袋->ChatGPT辅助是一个智能辅助Web端,十万个为什么终结者,工作学习都可以使用大大提高效率,感兴趣可以尝试一下',
             style: 'text-align: center;',
           },
           {
             type: 'text',
-            content: 'tips:博客可以自己更换主题颜色推荐dark浏览更佳,博客作用为学习和记录生活。后面会逐渐加入一些新的元素和功能，欢迎关注————奔跑的蜗牛',
+            content:
+              'tips:博客可以自己更换主题颜色推荐dark浏览更佳,博客作用为学习和记录生活。后面会逐渐加入一些新的元素和功能，欢迎关注————奔跑的蜗牛',
             style: 'text-align: center;',
           },
         ],
-
       },
     ],
     // [
@@ -304,7 +305,7 @@ module.exports = {
         size: 2, // size of the particle, default: 2
         shape: 'circle', // shape of the particle, default: 'star'
         zIndex: 999999999, // z-index property of the canvas, default: 999999999
-      }
+      },
     ],
     [
       'ribbon-animation',
@@ -339,17 +340,15 @@ module.exports = {
       },
     ],
     [
-      'dynamic-title', {
-      showIcon: '/favicon.ico',
-      showText: '客官欢迎回来~',
-      hideIcon: '/favicon.ico',
-      hideText: '客官不要走嘛~',
-      recoverTime: 2000,}
+      'dynamic-title',
+      {
+        showIcon: '/favicon.ico',
+        showText: '客官欢迎回来~',
+        hideIcon: '/favicon.ico',
+        hideText: '客官不要走嘛~',
+        recoverTime: 2000,
+      },
     ],
-    [
-      '@vuepress-reco/vuepress-plugin-pagation',{
-        
-      }
-    ],//分页插件
+    ['@vuepress-reco/vuepress-plugin-pagation', {}], //分页插件
   ],
 }
