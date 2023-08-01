@@ -51,15 +51,16 @@ module.exports = {
     //首页样式
     back: {
       isRandom: true,
-      bgImage: 'https://www.awenblog.online/blogimgs/202307252206552.jpg',
+      bgImage:
+        'https://www.awenblog.online/api/images/0b69fbdc-ca3f-4da7-82cc-f85f4578c6c1.jpg',
       bgUrls: [
-        'https://www.awenblog.online/blogimgs/202307252206552.jpg',
-        'https://www.awenblog.online/blogimgs/202307252207019.jpg',
-        'https://www.awenblog.online/blogimgs/202307252208621.jpg',
-        'https://www.awenblog.online/blogimgs/202307252208584.jpg',
-        'https://www.awenblog.online/blogimgs/202307252208381.jpg',
-        'https://www.awenblog.online/blogimgs/202307252208350.jpg',
-        'https://www.awenblog.online/blogimgs/202307252209984.jpg',
+        'https://www.awenblog.online/api/images/0b69fbdc-ca3f-4da7-82cc-f85f4578c6c1.jpg',
+        'https://www.awenblog.online/api/images/cd652592-7097-4130-9f61-694ce93560ce.jpg',
+        'https://www.awenblog.online/api/images/e6996e57-61fc-459d-b4ef-7be1e9283793.jpg',
+        'https://www.awenblog.online/api/images/b3541753-3a43-4a17-a43d-68792367e84d.jpg',
+        'https://www.awenblog.online/api/images/b285ab0e-48ce-4bd2-a4cf-823f45973467.jpg',
+        'https://www.awenblog.online/api/images/ed93c2e3-10b1-4769-9064-85a69c7fc564.jpg',
+        'https://www.awenblog.online/api/images/0d584461-4e3e-4879-a4f9-da6cb90669b5.jpg',
       ],
     },
     // 404腾讯公益false为关闭

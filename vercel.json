@@ -1,8 +1,8 @@
 {
   "routes": [
     {
-      "src": "/blogimgs/(.*)",
-      "dest": "http://imgbed.online/blogimgs/$1"
+      "src": "/images/(.*)",
+      "dest": "http://150.158.93.143:3000/api/images/$1"
     }
   ]
 }
