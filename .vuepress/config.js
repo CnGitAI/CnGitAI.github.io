@@ -49,6 +49,7 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     //首页样式
+    //test
     back: {
       isRandom: true,
       bgImage:
