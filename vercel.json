@@ -1,7 +1,7 @@
 {
   "routes": [
     {
-      "src": "/images/(.*)",
+      "src": "/api/images/(.*)",
       "dest": "http://150.158.93.143:3000/api/images/$1"
     }
   ]
